@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fondo futurista -->
+    <path
+        android:fillType="evenOdd"
+        android:pathData="M0,0h108v108h-108z"
+        android:fillColor="#FF00D4FF" />
+
+    <!-- Círculo exterior brillante -->
+    <path
+        android:pathData="M54,9 A45,45 0 0,1 54,99 A45,45 0 0,1 54,9 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#FF00FFF0"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Círculo interior -->
+    <path
+        android:pathData="M54,19 A35,35 0 0,1 54,89 A35,35 0 0,1 54,19 Z"
+        android:fillColor="#FF1A1D29" />
+
+    <!-- Símbolo de check futurista -->
+    <path
+        android:pathData="M42,54L48,60L66,42"
+        android:strokeWidth="4"
+        android:strokeColor="#FF00FFF0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Partículas decorativas como paths -->
+    <path android:pathData="M30,30 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" android:fillColor="#FF00FFF0" />
+    <path android:pathData="M78,25 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" android:fillColor="#FF4ECDC4" />
+    <path android:pathData="M82,78 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" android:fillColor="#FF00D4FF" />
+    <path android:pathData="M25,85 m-1.8,0 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0" android:fillColor="#FF00FFF0" />
+
+    <!-- Líneas tecnológicas -->
+    <path android:pathData="M20,20L88,20" android:strokeWidth="1" android:strokeColor="#FF00D4FF" />
+    <path android:pathData="M20,88L88,88" android:strokeWidth="1" android:strokeColor="#FF00D4FF" />
+    <path android:pathData="M20,20L20,88" android:strokeWidth="1" android:strokeColor="#FF4ECDC4" />
+    <path android:pathData="M88,20L88,88" android:strokeWidth="1" android:strokeColor="#FF4ECDC4" />
+</vector>

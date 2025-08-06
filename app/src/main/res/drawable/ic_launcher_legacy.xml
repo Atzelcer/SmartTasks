@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Fondo compacto -->
+    <path
+        android:pathData="M24,0 A24,24 0 0,1 24,48 A24,24 0 0,1 24,0 Z"
+        android:fillColor="#FF1A1D29" />
+
+    <!-- Borde brillante -->
+    <path
+        android:pathData="M24,4 A20,20 0 0,1 24,44 A20,20 0 0,1 24,4 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FF00FFF0"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Check futurista -->
+    <path
+        android:pathData="M16,24L20,28L32,16"
+        android:strokeWidth="3"
+        android:strokeColor="#FF00D4FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Partículas pequeñas como paths -->
+    <path android:pathData="M12,12 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" android:fillColor="#FF4ECDC4"/>
+    <path android:pathData="M36,12 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" android:fillColor="#FF00FFF0"/>
+    <path android:pathData="M36,36 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" android:fillColor="#FF00D4FF"/>
+    <path android:pathData="M12,36 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" android:fillColor="#FF4ECDC4"/>
+</vector>
